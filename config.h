@@ -93,35 +93,35 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* Terminal colors (16 first used in escape sequence) */
+/* Habamax terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#1c1c1c",
+	"#af5f5f",
+	"#5faf5f",
+	"#af875f",
+	"#5f87af",
+	"#af87af",
+	"#5f8787",
+	"#9e9e9e",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#767676",
+	"#d75f87",
+	"#87d787",
+	"#d7af87",
+	"#5fafd7",
+	"#d787d7",
+	"#87afaf",
+	"#bcbcbc",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#ffffff", /* cursor background */
+	"#000000", /* cursor foreground */
+	"#bcbcbc", /* foreground colour */
+	"#1c1c1c", /* background colour */
 };
 
 
